@@ -1,0 +1,459 @@
+/*  
+Theme Name: STDTesting Theme
+Theme URI: http://stdtesting.com/
+*/
+/****
+.container 		{  }
+a 				{ color: #00487D; }
+a:hover			{ color: #7B0F0F; }
+****/
+
+/*-----------------------------------------------------------------------------
+	Header
+	Add a graphic logo, using the following CSS
+-----------------------------------------------------------------------------*/
+/* #header {
+	height: 85px;
+} */
+#header a.logo  { background: url('./images/stdtesting-logo.gif') 5px 17px no-repeat; float:left; height: 85px; display: block; font-size: 0; height: 100px; line-height: 0; text-indent: -9999px; width: 300px; }
+#header a.login  { background:none; }
+#header .description { display: none; }
+#footer {height:100px; color:#fff; background-color:#0E7B77; }
+#footer li {float:left;font-weight:bold;}
+#footer a {font-size:1em;color:#fff; font-weight:bold;}
+
+/*-----------------------------------------------------------------------------
+	Navigation Colors
+	Customize the navbar with this CSS
+-----------------------------------------------------------------------------*/
+#nav, #subnav	{ background: #0E7B77; }
+#nav li.current_page_item a,
+#nav li a:hover 	{ background: #09514E; color: #FFF;}
+#nav li a,
+#subnav li a 	{ color: #FFF; }
+#nav li.current_page_item a,
+#subnav li.current_page_item a,
+#subnav li a:hover 	{ color: #FFF; }
+/*-----------------------------------------------------------------------------
+	HomePage Elements Backup
+#phoneNumNav	{ float:right; color:#FFF; padding-top:5px; padding-right:10px; }
+#HomeContentRow1				{ margin-bottom: 20px; height: 350px; }
+#HomeContentRow1-bucketLt		{ float: left; width: 430px; height: 350px; background: #0E7B77; }
+#HomeContentRow1-bucketRt1		{ float: right; width: 300px; height: 120px; background: #FFD7CA; border: solid 1px #DE5C32; margin-bottom: 20px; }
+#HomeContentRow1-bucketRt2		{ float: right; width: 300px; height: 206px; background: #F9FBD6; border: solid 1px #E1E5A3; background-image: url(http://new.stdtesting.com/wp-content/themes/blueprint/images/homeImgTestRec.jpg); background-repeat: no-repeat; background-position: right bottom; }
+#HomeContentRow1-bucketRt2 h2 	{ font-size: 1.0em; line-height: 1.2; color: #5E612F; background-color: #E1E5A3; padding: 5px; border: none; margin-bottom: 0px; }
+#HomeContentRow2			{ background: #EAFFFE; border: solid 1px #A8F6F3; height: 100px; margin-bottom: 20px; background-image: url(http://new.stdtesting.com/wp-content/themes/blueprint/images/processBk.gif); background-repeat: no-repeat; }
+#HomeContentRow2-bucket		{ padding: 12px; }
+#HomeContentRow3			{ height: 170px; }
+#HomeContentRow3-bucketLt	{ float: left; width: 430px; height: 170px; background: #0E7B77; }
+#HomeContentRow3-bucketRt	{ float: right; width: 300px; height: 170px; background-image: url(http://new.stdtesting.com/wp-content/themes/blueprint/images/fda-asha.jpg); background-repeat: no-repeat; background-position: right bottom; }
+-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+	HomePage Elements
+-----------------------------------------------------------------------------*/
+/* #phoneNumNav	{ float:right; color:#FFF; padding-top:5px; padding-right:10px; font-size: 16px; font-weight: bold; } */
+#navOrderBtn	{ font-size: 18px; width:130px; height:30px; float:right; background:#A8F6F3; text-align:center; border:solid 1px #0E7B77; }
+#headerOffer	{ float:right; font-size:15px; font-style:oblique; font-weight:bold; color:#056360; }
+
+#HomeContentRow1				{ margin-bottom: 20px; height: 350px; }
+#HomeContentRow1-bucketLt		{ float: left; width: 430px; height: 350px; background: #FFFFFF; /*background-image: url(http://new.stdtesting.com/wp-content/themes/blueprint/images/teen-std-lg.jpg); background-repeat: no-repeat;*/ }
+#HomeContentRow1-bucketRt1		{ float: right; width: 300px; height: 120px; background: #FFD7CA; border: solid 1px #DE5C32; margin-bottom: 20px; }
+#HomeContentRow1-bucketRt2		{ float: right; width: 300px; /*height: 206px;*/ height: 186px; }
+
+#HomeContentRow2			{ background: #EAFFFE; border: solid 1px #A8F6F3; height: 85px; margin-bottom: 20px; background-image: url(http://new.stdtesting.com/wp-content/themes/blueprint/images/processBk.gif); background-repeat: no-repeat; }
+#HomeContentRow2-bucket		{ padding: 12px; }
+
+#HomeContentRow3			{ height: 340px; width: 775px; background: #FFFFFF; }
+/*#HomeContentRow3-bucketLt	{ float: left; width: 430px; height: 170px; background: #0E7B77; }
+#HomeContentRow3-bucketRt	{ float: right; width: 300px; height: 170px; background-image: url(http://new.stdtesting.com/wp-content/themes/blueprint/images/fda-asha.jpg); background-repeat: no-repeat; background-position: right bottom; } */
+/*-----------------------------------------------------------------------------
+	Buttons
+-----------------------------------------------------------------------------*/
+#btnReadMore a{
+    display: block;
+	margin: 0px;
+    padding: 0px;
+	color:#FFFFFF;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-shadow:0px 1px 1px #7D280D;
+	/* font-weight:bold; */
+    font-size: 12px;
+    line-height: 25px;
+    height: 25px;
+    width: 125px;
+    text-align:center;
+	text-decoration: none;
+    background-color: #DE5C32;
+	/* background-image:url(http://new.stdtesting.com/wp-content/themes/blueprint/images/btnArrow.png);
+	background-position: 100px 9px;
+	background-repeat:no-repeat; */
+	border: 1px;
+    border-style: solid;
+	border-bottom-color: #AD3711;
+    border-right-color: #AD3711;
+    border-left-color: #F8C5B5;
+    border-top-color: #F8C5B5;
+}
+#btnReadMore a:hover {
+    color: #FFFFFF;
+    background-color: #CD4A20;
+    border-style: solid;
+    border-bottom-color: #AD3711;
+    border-right-color: #AD3711;
+    border-left-color: #F8C5B5;
+    border-top-color: #F8C5B5;
+}
+#btnGetStarted a{
+    display: block;
+	margin: 0px;
+    padding: 0px;
+	color:#FFFFFF;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-shadow:0px 1px 1px #7D280D;
+	/* font-weight:bold; */
+    font-size: 12px;
+    line-height: 25px;
+    height: 25px;
+    width: 125px;
+    text-align:center;
+	text-decoration: none;
+    background-color: #DE5C32;
+	/* background-image:url(http://new.stdtesting.com/wp-content/themes/blueprint/images/btnArrow.png);
+	background-position: 100px 9px;
+	background-repeat:no-repeat; */
+	border: 1px;
+    border-style: solid;
+	border-bottom-color: #AD3711;
+    border-right-color: #AD3711;
+    border-left-color: #F8C5B5;
+    border-top-color: #F8C5B5;
+}
+#btnGetStarted a:hover {
+    color: #FFFFFF;
+    background-color: #CD4A20;
+    border-style: solid;
+    border-bottom-color: #AD3711;
+    border-right-color: #AD3711;
+    border-left-color: #F8C5B5;
+    border-top-color: #F8C5B5;
+}
+#btnSelectYourTests a{
+    display: block;
+	margin: 0px;
+    padding: 0px;
+	color:#FFFFFF;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-shadow:0px 1px 1px #7D280D;
+	/* font-weight:bold; */
+    font-size: 14px;
+    line-height: 30px;
+    height: 30px;
+    width: 170px;
+    text-align:center;
+	text-decoration: none;
+    background-color: #DE5C32;
+	/* background-image:url(http://new.stdtesting.com/wp-content/themes/blueprint/images/btnArrow.png);
+	background-position: 100px 9px;
+	background-repeat:no-repeat; */
+	border: 1px;
+    border-style: solid;
+	border-bottom-color: #AD3711;
+    border-right-color: #AD3711;
+    border-left-color: #F8C5B5;
+    border-top-color: #F8C5B5;
+}
+#btnSelectYourTests a:hover {
+    color: #FFFFFF;
+    background-color: #CD4A20;
+    border-style: solid;
+    border-bottom-color: #AD3711;
+    border-right-color: #AD3711;
+    border-left-color: #F8C5B5;
+    border-top-color: #F8C5B5;
+}
+#btnOrderNow a{
+    display: block;
+	margin: 0px;
+    padding: 0px;
+	color:#FFFFFF;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-shadow:0px 1px 1px #7D280D;
+	/* font-weight:bold; */
+    font-size: 14px;
+    line-height: 30px;
+    height: 30px;
+    width: 170px;
+    text-align:center;
+	text-decoration: none;
+    background-color: #DE5C32;
+	/* background-image:url(http://new.stdtesting.com/wp-content/themes/blueprint/images/btnArrow.png);
+	background-position: 100px 9px;
+	background-repeat:no-repeat; */
+	border: 1px;
+    border-style: solid;
+	border-bottom-color: #AD3711;
+    border-right-color: #AD3711;
+    border-left-color: #F8C5B5;
+    border-top-color: #F8C5B5;
+}
+#btnOrderNow a:hover {
+    color: #FFFFFF;
+    background-color: #CD4A20;
+    border-style: solid;
+    border-bottom-color: #AD3711;
+    border-right-color: #AD3711;
+    border-left-color: #F8C5B5;
+    border-top-color: #F8C5B5;
+}
+/*-----------------------------------------------------------------------------
+	Sidebar 2
+-----------------------------------------------------------------------------*/
+#sideBannerTestRec { background: url('http://c189814.r14.cf1.rackcdn.com/banner-std-test-recommender-2.jpg'); width: 190px; height: 118px; }
+
+#sideBannerAAE	{ background: url('./images/askAnExpert-sideBanner.jpg'); width: 190px; height: 118px; }
+#sideBannerAAE2	{ background: url('./images/askAnExpert-sideBanner2.jpg'); width: 260px; height: 118px; }
+#sidebar2 	{ margin-left: 10px; margin-top: 20px; /* lets us have border */ }
+#sidebar2 h2 {
+	font-size: 1.0em;
+	line-height: 1.2;
+	/* font-weight: bold; */
+	color: #056360;
+ 	letter-spacing: 0px;
+	text-decoration: none;
+	background-color: #A8F6F3;
+	padding: 7px;
+}
+#sidebarTestRec		{ width: 260px; height: 206px; background: #F9FBD6; border: solid 1px #E1E5A3; background-image: url(http://new.stdtesting.com/wp-content/themes/blueprint/images/homeImgTestRec.jpg); background-repeat: no-repeat; background-position: right bottom; }
+#sidebarTestRec h2 	{ font-size: 1.0em; line-height: 1.2; color: #5E612F; background-color: #E1E5A3; padding: 5px; border: none; margin-bottom: 0px; }
+#sidebarSTDValPack		{ width: 260px; height: 220px; background: #EAFFFE; border: solid 1px #A8F6F3; }
+#sidebarSTDValPack h2 	{ font-size: 1.0em; line-height: 1.2; color: #056360; background-color: #A8F6F3; padding: 5px; border: none; margin-bottom: 0px; }
+#sidebarSTDTotalPack		{ width: 260px; height: 210px; background: #F9FBD6; border: solid 1px #E1E5A3; }
+#sidebarSTDTotalPack h2 	{ font-size: 1.0em; line-height: 1.2; color: #5E612F; background-color: #E1E5A3; padding: 5px; border: none; margin-bottom: 0px; }
+
+#sideBarSelectYourTest		{ width: 260px; height: 120px; background: #FFD7CA; border: solid 1px #DE5C32; }
+
+#sidebar2 ul, #sidebar ul ol {
+	margin: 0;
+	padding: 0 0 0 0;
+}
+#sidebar2 ul li	{
+	padding: 0;
+}
+#sidebar2 ul li ul {
+	background-color: #EAFFFE;
+	border: solid 1px #A8F6F3;
+	padding-top: 3px;
+}
+#sidebar2 ul li ul li {
+	margin: 0 10px 0 10px;
+	padding: 3px 0 5px 0px;
+	font-size: 0.9em;
+	border-bottom: dotted 1px #A8F6F3;
+}
+.feedlink2 {
+	padding: 2px 0 2px 20px;
+	background: url('./images/icons/feed_small.png') left center no-repeat;
+}
+#sidebar2 ul li, #sidebar ul li#subscribe ul li {
+	list-style-type: none;
+	background: none;
+	margin-bottom: 20px;
+}
+#sidebar2 ul li#subscribe ul li { margin: 0 0 0 -30px; }
+/* Hide search from sidebar */
+#sidebar2 #search { display: none; }
+table	{border: none;}
+tr		{border: none;}
+td		{border: none;}
+
+
+/*-----------------------------------------------------------------------------
+	Order Page Buttons
+-----------------------------------------------------------------------------*/
+#btnOrderPageSmall a {font-size: 0em; line-height: 0em; background: url(http://new.stdtesting.com/wp-content/themes/blueprint/images/order-std-test-btn-sm.png) no-repeat top left; display: block; width: 169px; height: 30px; text-indent: -9999px;}
+#btnOrderPageSmall a:hover {background-position: bottom left;}
+#btnOrderPageLarge a {font-size: 0em; line-height: 0em; background: url(http://new.stdtesting.com/wp-content/themes/blueprint/images/order-std-test-btn-lg.png) no-repeat top left; display: block; width: 220px; height: 50px; text-indent: -9999px;}
+#btnOrderPageLarge a:hover {background-position: bottom left;}
+
+
+
+/*-----------------------------------------------------------------------------
+	Info Pages Buy Area
+-----------------------------------------------------------------------------*/
+#infoPageBuy		{ height: 220px; background: #FFD7CA; border: solid 1px #DE5C32; margin-bottom: 20px; }
+
+
+/*-----------------------------------------------------------------------------
+	Find A Center Pop
+-----------------------------------------------------------------------------*/
+.find-center-tab menu-item menu-item-type-post_type menu-item-object-page menu-item-497 a {color:red}
+
+
+/*-----------------------------------------------------------------------------
+	Side Nav for Sexual Health Guide
+-----------------------------------------------------------------------------*/
+#sidenavSHG 	{ margin-left: 0px; margin-top: 0px; margin-right:20px; /* lets us have border */ }
+
+#sidenavSHG h2 {
+	font-size: 1.0em;
+	line-height: 1.2;
+	/* font-weight: bold; */
+	color: #056360;
+ 	letter-spacing: 0px;
+	text-decoration: none;
+	background-color: #A8F6F3;
+	padding: 7px;
+}
+
+
+#sidenavSHG ul, #sidenavSHG ul ol {
+	margin: 0;
+	padding: 0 0 0 0;
+}
+
+#sidenavSHG ul li	{
+	padding: 0;
+}
+
+#sidenavSHG ul li ul {
+	background-color: #EAFFFE;
+	border: solid 1px #A8F6F3;
+	padding-top: 3px;
+}
+
+#sidenavSHG ul li ul li {
+	margin: 0 10px 0 10px;
+	padding: 3px 0 5px 0px;
+	font-size: 0.9em;
+	border-bottom: dotted 1px #A8F6F3;
+}
+
+.feedlink {
+	padding: 2px 0 2px 20px;
+	background: url('../images/icons/feed_small.png') left center no-repeat;
+}
+
+#sidenavSHG ul li, #sidenavSHG ul li#subscribe ul li {
+	list-style-type: none;
+	background: none;
+	margin-bottom: 10px;
+}
+
+#sidenavSHG ul li#subscribe ul li { margin: 0 0 0 -30px; }
+
+.clinic-info { margin-bottom: 10px; }
+.entry ul { list-style-type: disc; list-style-position: inside; }
+li.arrow { list-style-image: url("/wp-content/themes/blueprint/images/btnArrow.png"); }
+li.circle { list-style-type: circle; }
+li.custom { list-style-image: url("/wp-content/themes/blueprint/images/customBullet.png"); }
+
+.roundedWhiteBox {
+         position: relative; /* Needed for PIE to work */
+               border: 1px solid #FFFFFF;
+     background-color:#FFFFFF;
+-webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+        border-radius: 15px;
+             behavior: url(/wp-content/themes/getstdtested/css/PIE.htc); /* Hardcoded because it would stop working on different pages if relative. */
+}
+.roundedGrayBox {
+    background-color:#F7F8FA;
+    background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.18, rgb(255,255,255)),
+    color-stop(0.91, rgb(247,248,250))
+    );
+    background-image: -moz-linear-gradient(
+        center top,
+        rgb(255,255,255) 18%,
+        rgb(247,248,250) 91%
+    ); border: 1px solid #C9D0DF; -moz-border-radius: 15px; border-radius: 15px; behavior: url(border-radius.htc);}
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------
+	Order Page Variation 1
+-----------------------------------------------------------------------------*/
+
+#stdt-landing-page-var-1 * { margin: 0; padding: 0; outline:0; }
+#stdt-landing-page-var-1  { font-size: 12px; line-height: 1.3; font-family: Arial, Helvetica, Sans-Serif; color: #000; background: #fff; }
+#stdt-landing-page-var-1 a { color: #0252aa; text-decoration: none; cursor:pointer; }
+#stdt-landing-page-var-1 a:hover { text-decoration: underline; }
+#stdt-landing-page-var-1 a img { border: 0; }
+#stdt-landing-page-var-1 h2 { font-size:20px; line-height:25px; font-weight:normal; padding-bottom:18px; border:none; }
+#stdt-landing-page-var-1 .cl { display: block; height: 0; font-size: 0; line-height: 0; text-indent: -4000px; clear: both; }
+#stdt-landing-page-var-1 .notext { font-size: 0; line-height: 0; text-indent: -4000px; }
+#stdt-landing-page-var-1 .shell { width:960px; margin:0 auto; }
+#stdt-landing-page-var-1 .main { padding:22px 0 0; }
+#stdt-landing-page-var-1 .steps-box { float: left; display: inline; width:650px; background:url(http://c189814.r14.cf1.rackcdn.com/lpvar-steps-box-m.png); margin-bottom:23px; }
+#stdt-landing-page-var-1 .steps-box .box-t { background:url(http://c189814.r14.cf1.rackcdn.com/lpvar-steps-box-t.png) no-repeat; }
+#stdt-landing-page-var-1 .steps-box .box-b { background:url(http://c189814.r14.cf1.rackcdn.com/lpvar-steps-box-b.png) bottom no-repeat; padding:17px 0 11px 16px; }
+#stdt-landing-page-var-1 .steps-box ul { list-style:none; }
+#stdt-landing-page-var-1 .steps-box .step { float: left; display: inline; width:302px; height:70px; padding-bottom:3px; }
+#stdt-landing-page-var-1 .steps-box .image { float: left; display: inline; }
+#stdt-landing-page-var-1 .steps-box .image img { display:block; }
+#stdt-landing-page-var-1 .steps-box .data { float: left; display: inline; width:230px; padding:0 0 0 13px; }
+#stdt-landing-page-var-1 .steps-box .data h3 { font-size:18px; line-height:22px; padding:5px 0 2px; }
+#stdt-landing-page-var-1 .steps-box .data h4 { font-size:16px; line-height:22px; padding:5px 0 0; }
+#stdt-landing-page-var-1 .steps-box .data h3,
+#stdt-landing-page-var-1 .steps-box .data h4 { color:#0e7b77; }
+#stdt-landing-page-var-1 .steps-box .data h3 span,
+#stdt-landing-page-var-1 .steps-box .data h4 span { color:#868686; }
+#stdt-landing-page-var-1 .steps-box .data p { font-size:14px; line-height:17px; color:#868686; }
+#stdt-landing-page-var-1 .questions-box-r { float: right; display: inline; width:299px; background:url(http://c189814.r14.cf1.rackcdn.com/lpvar-questions-box-r-m.png); position:relative; margin:10px 0 23px; }
+#stdt-landing-page-var-1 .questions-box-r .girl { position:absolute; top:-18px; right:0; width:114px; height:181px; background:url(http://c189814.r14.cf1.rackcdn.com/lpvar-girl-3.png); font-size: 0; line-height: 0; text-indent: -4000px; }
+#stdt-landing-page-var-1 .questions-box-r h3 { padding:9px 105px 0 23px; height:52px; background:url(http://c189814.r14.cf1.rackcdn.com/lpvar-questions-box-r-t.png); font-size:18px; line-height:23px; color:#fff; }
+#stdt-landing-page-var-1 .questions-box-r .box-b { background:url(http://c189814.r14.cf1.rackcdn.com/lpvar-questions-box-r-b.png) bottom no-repeat; padding:5px 111px 15px 18px; }
+#stdt-landing-page-var-1 .questions-box-r p { font-size:14px; line-height:18px; color:#868686; padding-bottom:11px; }
+#stdt-landing-page-var-1 .questions-box-r p span { color:#ec7943; }
+#stdt-landing-page-var-1 .questions-box-r h6 { font-size:10px; line-height:12px; font-weight:normal; color:#868686; }
+#stdt-landing-page-var-1 .options { background:url(http://c189814.r14.cf1.rackcdn.com/lpvar-options-m.png); }
+#stdt-landing-page-var-1 .options .options-t { background:url(http://c189814.r14.cf1.rackcdn.com/lpvar-options-t.png) no-repeat; }
+#stdt-landing-page-var-1 .options .options-b { background:url(http://c189814.r14.cf1.rackcdn.com/lpvar-options-b.png) bottom no-repeat; height:auto !important; height:371px; min-height:371px;  }
+#stdt-landing-page-var-1 .options .home-testing { float: left; display: inline; width:204px; padding:0 0 54px 16px; position:relative; height:auto !important; height:308px; min-height:308px;  }
+#stdt-landing-page-var-1 .options .lab-testing { float: right; display: inline; width:686px; padding:0 0 0 0; }
+#stdt-landing-page-var-1 .options .lab-testing ul { list-style:none; }
+#stdt-landing-page-var-1 .options .lab-testing .column { float: left; display: inline; width:202px; padding-right:21px; position:relative; padding-bottom:54px; height:auto !important; height:264px; min-height:264px;  }
+#stdt-landing-page-var-1 .options .lab-testing .column-total { padding-left:7px; padding-right:0; width:220px; }
+#stdt-landing-page-var-1 .options h3 { font-size:22px; line-height:27px; color:#585858; font-weight:normal; padding-bottom:9px; }
+#stdt-landing-page-var-1 .options .column-total h3 { font-size:20px; color:#0e7b77; font-weight:bold; }
+#stdt-landing-page-var-1 .options .column-total .complete { position:absolute; top:-17px; left:7px; font-size:12px; line-height:18px; color:#ec7943; font-weight:bold; text-transform:uppercase;}
+#stdt-landing-page-var-1 .options .order-button { display:block; width:95px; height:20px; background:url(http://c189814.r14.cf1.rackcdn.com/lpvar-order-now-orange.png); font-size: 0; line-height: 0; text-indent: -4000px; margin-bottom:10px; }
+#stdt-landing-page-var-1 .options .lab-testing .order-button { background:url(http://c189814.r14.cf1.rackcdn.com/lpvar-order-now-green.png);  }
+#stdt-landing-page-var-1 .options .tab { margin-bottom:13px;  padding-top:0 !important; padding-bottom:0 !important; }
+#stdt-landing-page-var-1 .options .tab,
+#stdt-landing-page-var-1 .options .tab span { float: left; display: inline; font-size:16px; line-height:31px; color:#fff; background:url(http://c189814.r14.cf1.rackcdn.com/lpvar-tabs.png); }
+#stdt-landing-page-var-1 .options .tab { padding-left:17px; }
+#stdt-landing-page-var-1 .options .tab span { padding-right:17px; background-position:right top; }
+#stdt-landing-page-var-1 .options .lab-testing .tab { margin-left:0px; background-position:left bottom; }
+#stdt-landing-page-var-1 .options .lab-testing .tab span { background-position:right bottom; }
+#stdt-landing-page-var-1 .options .checklist { list-style:none; padding:5px 0 5px 5px; }
+#stdt-landing-page-var-1 .options .checklist li { padding-left:17px; background:url(http://c189814.r14.cf1.rackcdn.com/lpvar-checklist.png) no-repeat; font-size:14px; line-height:20px; color:#8c8c8b; height:20px; }
+#stdt-landing-page-var-1 .options .checklist li select { width:100px;}
+#stdt-landing-page-var-1 .options .checks { list-style:none; padding:0 0 7px 5px; }
+#stdt-landing-page-var-1 .options .checks li { font-size:12px; line-height:21px; color:#8c8c8b; }
+#stdt-landing-page-var-1 .options .checks li input { float: left; display: inline; width:13px; height:13px; margin:4px 8px 4px 0; }
+#stdt-landing-page-var-1 .options .checks li label { float: left; display: inline; }
+#stdt-landing-page-var-1 .options .price-box { position:absolute; bottom:15px; left:0; height:35px; line-height:35px; width:200px; }
+#stdt-landing-page-var-1 .options .price-box span { float: left; display: inline; background:url(http://c189814.r14.cf1.rackcdn.com/lpvar-price-box.png); padding-left:12px; width:83px; font-size:22px; color:#585858; font-weight:bold; }
+#stdt-landing-page-var-1 .options .price-box a { float: right; display: inline; width:104px; height:35px; background:url(http://c189814.r14.cf1.rackcdn.com/lpvar-price-box-btn-orange.png); font-size: 0; line-height: 0; text-indent: -4000px; }
+#stdt-landing-page-var-1 .options .lab-testing .price-box a { background:url(http://c189814.r14.cf1.rackcdn.com/lpvar-price-box-btn-blue.png); }
+#stdt-landing-page-var-1 .options .home-testing .price-box { left:17px; }
+#stdt-landing-page-var-1 .options .lab-testing .column-total .price-box { left:10px; }
+#stdt-landing-page-var-1 .options .column .price-box { left:-4px; }
+#stdt-landing-page-var-1 .options h4 { font-size:16px; line-height:20px; color:#ec7943; font-weight:normal; padding-left:5px; }
+#stdt-landing-page-var-1 .options h5 { font-size:12px; line-height:14px; color:#8c8c8b; padding-left:5px; }
+#stdt-landing-page-var-1 .options p { font-size:12px; line-height:14px; color:#8c8c8b; padding-top:2px; padding-left:5px; }
+#stdt-landing-page-var-1 .options .home-testing p { padding-bottom:9px; }
+#stdt-landing-page-var-1 .options .col-1 h3 { padding-bottom:14px; }
+#stdt-landing-page-var-1 .options .col-1 .checks { padding-bottom:9px; }
+#stdt-landing-page-var-1 .options .col-1 .checks li { line-height:18px; }
+#stdt-landing-page-var-1 .options .col-1 .checks li input { margin-top:3px; margin-bottom:0; }
+#stdt-landing-page-var-1 .options .col-2 p { padding-bottom:5px; }
+#stdt-landing-page-var-1 .bottom-nav { font-weight:bold; }
+#stdt-landing-page-var-1 .copy { padding-top:16px; }

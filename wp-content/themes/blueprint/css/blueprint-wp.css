@@ -1,0 +1,274 @@
+/*-----------------------------------------------------------------------------
+	Blueprint-WP Theme
+	By: Joshua Sowin (fireandknowledge.org)
+-----------------------------------------------------------------------------*/
+
+body 	{  margin-bottom: 0; margin-top: 0; }
+
+/* Blueprint width setting */
+.container 	{ width: 960px; padding-top: 10px; }			
+
+#page {
+	/* border-left: 1px solid #CCC; */
+	/* border-right: 1px solid #CCC; */
+	/* border-bottom: 1px solid #CCC; */
+	float: left;
+	margin-bottom: 20px;
+}
+
+blockquote {
+	font-style: normal;
+	padding: 0 0 0 0;
+	color: #000;
+	background: url('../images/quote.png') .5em top no-repeat;
+}
+
+a 				{ color: #3E4967; text-decoration: none; }
+a:hover			{ color: #000; text-decoration: underline; }
+blockquote p 	{ padding: 0 20px 0 30px; }
+hr 				{ background: #CCC; height: 1px; }
+img				{ margin: 0; }
+p img			{ float: none; }
+a.button 		{ float: left; } /* Fix for buttons */
+input 			{ padding-left: 0; border: 1px solid #CCCCCC;  }
+ul 				{ margin-left: 15px; list-style-type: none; }
+ul li 			{ padding: 2px 0 2px 9px; /* background: url('../images/icons/bullet_square_grey.gif') left 5px no-repeat;*/ }
+ol				{ margin-left: 35px; }
+label			{ font-weight: normal; }
+textarea		{ height: 200px; width: 500px;}
+.small			{ font-size: .9em; }
+.nomargin		{ margin: 0; }
+a.button, button { font-weight: normal; }
+
+h3, h3 a {
+	font-size: 1.0em;
+	line-height: 1.2;
+	font-weight: bold;
+	color: #056360;
+ 	letter-spacing: 0px;
+	text-decoration: none;
+}
+
+#maincontent h2 		{ color: #3B4A25; border-bottom: 1px dotted #AAA; margin-bottom: 15px; }
+h2 a 					{ color: #3B4A25; text-decoration: none; }
+#maincontent .post h2	{ margin-bottom: 5px; }
+						/* Padding inside columns */
+#maincontent .content 	{ padding: 20px 0px 0px 20px; }	
+#maincontent .content2 	{ padding: 20px 0px 0px 0px; }	
+
+.navigation, 
+.navigation a			{ color: #AAA; }
+.alignright 			{ float: right; }
+.alignleft 				{ float: left; }
+
+.post					{ margin-bottom: 25px; }
+
+/*-----------------------------------------------------------------------------
+	Header
+-----------------------------------------------------------------------------*/
+
+#header {
+	height: 85px;
+}
+
+#header h1, #header .description {
+	padding-left: 10px;
+	margin: 0;
+	line-height: 1em;
+}
+
+#maincontent, #sidebar { padding: 0 0 20px 0; }
+
+
+
+/* Navigation Backup
+
+#nav, #subnav	{ padding: 0; background: #0E7B77; float: left; width: 100%; line-height: 1.5em; }
+
+#nav ul,
+#subnav ul		{ margin: 0; padding: 0; list-style: none; }
+
+#nav li,
+#subnav li		{ margin: 0; padding: 0; float: left; background-image: none; }
+
+#nav li a,
+#subnav li a 	{ color: #FFFFFF; padding: 5px 15px; float: left; text-decoration: none; }
+
+#nav li.current_page_item a,
+#nav li a:hover 	{ background: #09514E; color: #FFFFFF; }
+
+#subnav				{ background: #616161; }
+
+#nav li.current_page_item a,
+#subnav li.current_page_item a,
+#subnav li a:hover 	{ color: #FFFFFF; }
+
+#nav li.first a { margin-left: 0px; }
+
+*/
+
+
+
+/*-----------------------------------------------------------------------------
+	Navigation
+-----------------------------------------------------------------------------*/
+
+
+#nav, #subnav	{ padding: 0; background: #0E7B77; float: left; width: 100%; line-height: 1.5em; }
+#nav ul,
+#subnav ul		{ margin: 0; padding: 0; list-style: none; }
+
+
+#nav li,
+#subnav li		{ margin: 0; padding: 0; float: left; background-image: none; }
+/*
+#nav li a,
+#subnav li a 	{ color: #FFFFFF; padding: 5px 15px; float: left; text-decoration: none; }
+
+#nav li.current_page_item a,
+#nav li a:hover 	{ background: #09514E; color: #FFFFFF; }
+
+#subnav				{ background: #616161; }
+
+#nav li.current_page_item a,
+#subnav li.current_page_item a,
+#subnav li a:hover 	{ color: #FFFFFF; }
+
+#nav li.first a { margin-left: 0px; }
+*/
+
+
+#menu-main-menu {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em; }
+#menu-main-menu li {
+	list-style: none;
+	float: left; }
+#menu-main-menu li a {
+	display: block;
+	padding: 5px 15px;
+	background-color: #0E7B77;
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px; }
+#menu-main-menu li ul {
+	display: none; 
+	width: 15em;
+	background-color: #0E7B77;}
+#menu-main-menu li:hover ul, #navbar li.hover ul {
+	display: block;
+	position: absolute;
+	z-index: 10;
+	margin: 0;
+	padding: 0; }
+#menu-main-menu li:hover li, #navbar li.hover li {
+	float: none; }
+#menu-main-menu li:hover li a, #navbar li.hover li a {
+	background-color: #2b9a96;
+	border-top: 1px solid #fff;
+	color: #fff; }
+#menu-main-menu li li a:hover {
+	background-color: #0E7B77; }
+
+	/*-------------------------------------------------------------------------
+		Navigation bar in posts (use main nav html inside a post)
+	-------------------------------------------------------------------------*/
+
+	.entry #nav .content {
+		padding: 0;
+		margin: auto;
+	}
+
+	.entry #nav {
+		margin-bottom: 15px;
+		background: #FFF;
+
+	}
+
+	.entry #nav li a 		{ color: #FFF; border-right: 1px solid #AAA; background: #666; }
+	.entry #nav li.last a	{ border-right: none; }
+	.entry #nav li a:hover 	{ background: #333; color: #FFF;}
+
+/*-----------------------------------------------------------------------------
+	Sidebar
+-----------------------------------------------------------------------------*/
+
+#page 		{ /*background: url('../images/sidebar_bg.gif') right repeat-y;*/ /* fake bg */ }
+#sidebar 	{ margin-left: 0px; margin-top: 20px; /* lets us have border */ }
+#sidebar h2 {
+	font-size: 1.0em;
+	line-height: 1.2;
+	/* font-weight: bold; */
+	color: #056360;
+ 	letter-spacing: 0px;
+	text-decoration: none;
+	background-color: #A8F6F3;
+	padding: 7px;
+}
+
+
+#sidebar ul, #sidebar ul ol {
+	margin: 0;
+	padding: 0 0 0 0;
+}
+
+#sidebar ul li	{
+	padding: 0;
+}
+
+#sidebar ul li ul {
+	background-color: #EAFFFE;
+	border: solid 1px #A8F6F3;
+	padding-top: 3px;
+}
+
+#sidebar ul li ul li {
+	margin: 0 10px 0 10px;
+	padding: 3px 0 5px 0px;
+	font-size: 0.9em;
+	border-bottom: dotted 1px #A8F6F3;
+}
+
+.feedlink {
+	padding: 2px 0 2px 20px;
+	background: url('../images/icons/feed_small.png') left center no-repeat;
+}
+
+#sidebar ul li, #sidebar ul li#subscribe ul li {
+	list-style-type: none;
+	background: none;
+	margin-bottom: 20px;
+}
+
+#sidebar ul li#subscribe ul li { margin: 0 0 0 -30px; }
+
+/* Hide search from sidebar */
+#sidebar #search { display: none; }
+
+/*-----------------------------------------------------------------------------
+	Footer
+-----------------------------------------------------------------------------*/
+
+#footer 		{ text-align: center; font-size: .9em; margin: 0;}
+
+#footer a 		{ text-decoration: none; }
+
+
+/*-----------------------------------------------------------------------------
+	Search
+-----------------------------------------------------------------------------*/
+
+#search				{ float: right; }
+#search #s 			{ background: transparent url('../images/icons/search_grey.png') 0px center no-repeat; background-color: #CDF7F5;
+ 				  	  padding: 2px 0 2px 17px; width: 135px; color: #64AFAB; font-size: 0.9em; margin-right: 10px; }
+#search #s:hover 	{ color: #000; }
+.search-excerpt 	{ margin: 0; }
+
+
+/*-----------------------------------------------------------------------------
+	Comments
+-----------------------------------------------------------------------------*/
+
+.commentlist li { padding: 8px 15px; } 
+.comments-alt 	{ background: #EEE;}

@@ -1,0 +1,66 @@
+<?php header('Content-Type: text/css');
+require_once 'lib/css.php';
+?>
+@CHARSET "UTF-8";
+.checkout nav {height: 10px;}
+.checkout fieldset {float: left; width:590px; margin: 0; padding: 20px 0 30px 40px; border: 0; border-bottom: 1px solid #88e3c7;}
+.checkout fieldset#one {background: url(../images/checkout-step-1.png) no-repeat 0 20px; border-bottom: 1px solid #88e3c7; padding-bottom: 30px;}
+.checkout fieldset#two {background: url(../images/checkout-step-2-big.png) no-repeat 0 20px;}
+.checkout fieldset#three {background: url(../images/checkout-step-3-big.png) no-repeat 0 20px;}
+
+fieldset#one ul {list-style:none; margin: 10px 0 0; padding: 0;}
+fieldset#one li {clear: both;}
+fieldset#one h3 {color: #289674; font-size: 16px; font-weight: bold; line-height: 1.2em;}
+fieldset#one h4 {float: left; line-height: 1.2em; font-size: 19px; width: 480px; font-weight: bold;}
+fieldset#one h4 span {display: block; font-size: 11px; color: #999; font-weight:bold}
+fieldset#one h4 strong {display: block; line-height: 1.1em; font-size: 12px; color: black;}
+fieldset#one p {line-height: 1.5em; font-size: 14px; font-weight: bold; float: right; text-align: right;}
+fieldset#one p strong {background-color: #ff9; color: black; display: block; font-size: 12px;}
+fieldset#one p a {font-weight: normal; font-size: 12px;}
+fieldset#one li.consult h4 {font-size: 16px;margin-top:5px;font-weight:bold}
+fieldset#one li.consult p {color: #d65227; text-transform: uppercase;margin-top:5px}
+
+.checkout fieldset#two label {clear: both; float: left; width: 150px; margin-bottom: 15px;}
+.checkout fieldset label {display: block; font-size: 14px; margin: 0; padding: 10px 0 4px;}
+.checkout fieldset label span {font-size: 11px; color: #999;}
+.checkout fieldset label#anonymous {float: none; width: 100%; margin-bottom: 0px;}
+.checkout fieldset label#anonymous strong {padding: 0; background-color: #ff9;}
+.checkout fieldset label#anonymous span {display: block;}
+.checkout fieldset input[type="checkbox"] {position: static; border: none; float: left; padding: 0; margin: 0 0 10px; width: 25px;}
+
+fieldset#two div {padding-left: 35px;}
+fieldset#two h3 {color: #289674; font-size: 16px; font-weight: bold; line-height: 1.2em;}
+fieldset#three h3 {color: #289674; font-size: 16px; font-weight: bold; line-height: 1.2em;}
+
+.checkout fieldset input {color: black; border: 1px solid #8ce4c9; font-size: 14px; display: block; margin: 0;}
+.checkout fieldset input:focus {color: black;}
+.checkout fieldset#two input, .checkout fieldset#two select  {float: left; margin-right: 10px; margin-top: 10px;}
+.checkout fieldset#two p {margin: 0; padding: 0; line-height: 1em;}
+.checkout fieldset#two p span {clear: both; display: block; margin-left: 150px; font-size: 11px; font-weight: bold; color: #999;}
+.checkout fieldset#two p div {clear: both; display: block; margin-left: 150px; font-size: 11px; font-weight: bold; color: #999;} 
+
+.checkout fieldset#three ul {list-style: none; margin: 0; padding: 0; position: relative; top: 4px;}
+.checkout fieldset#three li {float: left; margin-right: 5px;}
+.checkout fieldset#three li a {text-align: center; display: block; padding: 10px 0 8px; width: 139px; font-size: 14px; color: black; background: url(../images/pay-later-bg.png) no-repeat top left;}
+.checkout fieldset#three li a.active {background: url(../images/pay-later-bg-active.png) no-repeat top left;}
+.checkout fieldset#three li a#cash {background: url(../images/pay-with-cash-bg.png) no-repeat top left; width: 237px;}
+.checkout fieldset#three li a#cash.active {background: url(../images/pay-with-cash-bg-active.png) no-repeat top left; width: 237px;}
+
+.checkout fieldset#three .payment {clear: both; margin: 0; padding: 0 20px 50px; background: url(../images/payment-bg.png) no-repeat top left;}
+.checkout fieldset#three label {display: block; margin: 0; padding: 20px 0 5px;}
+.checkout fieldset#three input {float: left; width: 230px; margin-bottom: 10px;}
+.checkout fieldset#three img {float: left; margin: -5px 0 0 10px;}
+
+.checkout fieldset#three .payment div {clear: both; float: right; width: 305px; margin-top: 10px;}
+.checkout fieldset#three .payment div p.call {color: #289674; font-weight: bold;}
+.checkout fieldset#three .payment div p.call strong {color: #d65227; font-size: 14px; padding-left: 5px;}
+
+.checkout #confirm {background: url(../images/payment-bg.png) no-repeat 0 -360px; margin: 0; padding-top: 40px;}
+.checkout #confirm p {width: 400px; font-size: 14px;}
+.checkout #confirm input[type="submit"] {margin-left:220px;text-align:center; text-indent: -9999px; font-size: 0; border: 0; background: url(../images/place-order.png) no-repeat top left; width: 169px; height: 46px;}
+.checkout #confirm input[type="submit"]:hover {background-position: bottom left;}
+
+.checkout #checkout-steps {margin-top: 25px;}
+.checkout #checkout-steps h4 span {font-size: 16px;}
+
+#promoForm label {display: inline;}

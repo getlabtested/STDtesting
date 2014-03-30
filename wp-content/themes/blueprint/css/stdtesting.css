@@ -1,0 +1,146 @@
+/**********START HEADER/FOOTER*****/
+html, body {height: 100%;}
+body {margin: 0;padding: 0;line-height: 1.5em;font-family: Arial, Helvetica, sans-serif;font-size: 12px;color: #333;text-align: center;background-repeat:repeat-x;}
+img{border:0;}                
+#main_content{width:960px;margin-left:auto;margin-right:auto;text-align:left;}
+#footerMain{background-color:#666666;padding:0;margin:0;color:#FFFFFF;font-family:Arial, Helvetica, sans-serif;font-size:12px}
+#footerMain a{color:#FFFFFF;font-size:12px;text-decoration:none;}
+#footerMain td{color:#FFFFFF;font-size:12px;padding:20px 20px 0px 40px;}
+#header {background-color: white;}
+#headerTable{background: url("../images/head_bg2.jpg") no-repeat;width:986px;}
+#headerImg{padding:10px;}
+.orange_contact {font-family:Arial, Helvetica, sans-serif;font-size:28px;color:#C1431E;font-weight:bold;padding-right:28px;padding-top:10px;}
+.headerText1{color:black;font-size:12pt;width:140px;padding-top:14px;}
+
+
+.smallPrivacyTxt{font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#787878;}
+.sectionTitle1{font-family:Arial, Helvetica, sans-serif;font-size:24px;color:#5DAECB;}
+.sectionTitle2{font-family:Arial, Helvetica, sans-serif;font-size:24px;color:#787878;}
+.tab-box{border-bottom:1px solid #DDD;padding-bottom:5px;}
+.tab-box a{border:1px solid #DDD;color:#666666;padding:5px 15px;text-decoration:none;border-top:3px #cccccc solid;padding-top:18px;background-color:#eee;}
+.tab-box a.activeLink{background-color:#fff;border-bottom:0;padding:6px 15px;padding-top:18px;border-top:3px #00ABEC solid;}
+.tabcontent{border-left:1px solid #ddd;border-bottom:1px solid #ddd;border-top:0;padding:5px;}
+.hide{display:none;}
+.blue_link:link, .blue_link:visited{font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#5AA9C6;text-decoration:none;}
+.blue_link:hover{font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#666666;text-decoration:none;}
+.blue_link_dark:link, .blue_link_dark:visited{font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#3284A2;text-decoration:none;line-height:20px;}
+.blue_link_dark:hover{font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#666666;text-decoration:none;padding-bottom:3px;line-height:20px;}
+.middle_howitswork_bg{width:228px;background-image:url(../images/middle_bg.jpg);background-repeat:repeat-x;background-position:top;background-color:#F7F8FA;border-left:1px #CECECE solid;border-right:1px #CECECE solid;padding:0;margin:0;}
+
+
+/***********TABS**************/
+#tabsJ {float:right;font-size:10pt;line-height:normal;font-weight:bold;margin-bottom:-8px;margin-left:1px;}
+#tabsJ ul {margin:0;padding:4px 10px 0 50px;list-style:none;}
+#tabsJ li {display:inline;margin:0;padding:0;}
+#tabsJ a {float:left;margin:0;padding:0 10px 0 5px;text-decoration:none;margin-left:1px;}
+#tabsJ a span {float:left;display:block;padding:5px 15px 4px 6px;color:#FFF;margin-left:1px;}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabsJ a span {float:none;}
+/* End IE5-Mac hack */ 
+#tabsJ a:hover span {color:#FFF;}
+#tabsJ a:hover {background:url("../images/tableftactive2.jpg") no-repeat left top;}
+#tabsJ a:hover span {background:url("../images/tabrightactive2.jpg") no-repeat right top;color:#198AAC;}
+#tabsJ #current a {background:url("../images/tableftactive2.jpg") no-repeat left top;}
+#tabsJ #current a span {background:url("../images/tabrightactive2.jpg") no-repeat right top;color:#198AAC;}
+#tabsJ #ordernow a {text-decoration:underline}
+  #tabsJ #ordernow a span {text-decoration:underline}
+/***********END TABS**************/
+
+/*The following was added for the new header and footer*/
+footer, header, nav, section {display:block;}
+.container {width:960px;margin:0 auto;}
+.clearfix:after, .container:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
+
+/* HEADER */
+header {display: block; padding: 20px 0 10px;}
+header h1 {float: left; background: url(../images/logo.png) no-repeat top left;}
+header h1 a {font-size: 0em; line-height: 0em; display: block; text-indent: -9999px; width: 273px; height: 42px;}
+header h1 {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+header h3 {line-height: .8em; float: right; text-align: center; font-weight: normal; color: black; font-family: Georgia, serif; font-size: 24px; margin: 0; padding: 0;}
+header h3 span {font-size: 12px; display: block; font-family: Helvetica, Arial, serif; color: #289674; font-weight: bold; text-transform: uppercase;}
+header h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#111;}
+header h1 {font-size:3em;line-height:1;margin-bottom:0.5em;}
+header h2 {font-size:2em;margin-bottom:0.75em;}
+
+/* MAIN NAV */
+nav {display: block; background: #127595 url(../images/nav_bg.png) repeat-x bottom left;line-height:1.5;}
+nav ul {margin: 0; padding: 0; list-style: none;}
+nav li {float: left; margin-right: 15px;}
+nav li a {display: block; padding: 15px; font-size: 14px; font-weight: bold; color: white; text-decoration: none;}
+nav li a:first-child {padding-left: 0;}
+nav li a:hover {color: #add9e7;}
+
+/* FOOTER */
+#footer {height:100px; color:#fff; background-color:#0E7B77; }
+#footer li {float:left;font-weight:bold;}
+#footer a {font-size:1em;color:#fff; font-weight:bold;}
+#footer 		{ text-align: center; font-size: .9em; margin: 0;}
+#footer a 		{ text-decoration: none; }
+
+.checkout #confirm input[type="button"]:hover {background-position: bottom left;}
+
+.orderResults{
+  font-family:arial;
+  font-size:8pt;
+}
+.comment1{
+	padding: 0px 0px 10px 14px;
+}
+.title1{
+	text-decoration: none;
+	font-size: 12pt;
+	color: #13819A;
+}
+.title2{
+  color:#DF6323;
+  font-size:12pt;
+  font-weight:bold
+}
+.title3{
+  color:#ff0000;
+  font-size:12pt;
+  font-weight:bold
+}
+.clickBanner2{
+  font-family:arial;
+  font-size:8pt;
+  width:400px;
+  padding:10px;
+  margin:4px 4px 4px 0px;
+  background-color:#FFFFCC;
+}
+.infoBlock1{
+  font-family:arial;
+  font-size:8pt;
+  font-weight:bold;
+  padding:10px;
+  margin:4px 4px 4px 0px;
+  background-color:#FFFFCC;
+}
+.displayResults table{
+  font-family:Arial;
+  font-size:9pt;
+}
+.btn0 {
+  width:70px;
+  border: 2px #00FF00 solid;
+  font-weight:bold;
+  text-align: center;
+}
+.btn1 {
+  width:70px;
+  border: 2px #FF6600 solid;
+  font-weight:bold;
+  text-align: center;
+}
+.btn2 {
+  width:70px;
+  border: 2px #FFFF00 solid;
+  font-weight:bold;
+  text-align: center;
+}
+.btn00 {
+  border: 2px #666666 solid;
+  font-weight:bold;
+  text-align: center;
+}

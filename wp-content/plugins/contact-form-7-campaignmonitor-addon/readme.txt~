@@ -1,0 +1,40 @@
+=== Contact Form 7 - Campaign Monitor Addon ===
+Contributors: joshuabettigole
+Donate link: http://www.bettigole.us/donate/
+Tags: Campaign Monitor, Contact Form 7, Newsletter, Opt In, Email Marketing
+Requires at least: 2.8
+Tested up to: 3.0
+Stable tag: 0.99
+
+Add the capability to create newsletter opt-in forms with Contact Form 7. Automatically submit subscribers to predetermined lists in Campaign Monitor.
+
+== Description ==
+
+Add the capability to create newsletter opt-in forms with Contact Form 7. Contacts are automatically subscribed to the list determined in the form configuration. 
+
+== Installation ==
+
+1. Upload `contact-form-7-campaign-monitor-addon` to the `/wp-content/plugins/` directory
+1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Obtain API Key, API Client ID and the API Subscriber List ID from Constant Contact
+1. Enable and configure the Campaign Monitor section on the Contact Form 7 "Edit" page.
+
+== Frequently Asked Questions ==
+
+= Does this plugin allow for an opt-in checkbox =
+
+Yes, by including a checkbox tag in the form such as:
+[checkbox add-email-list default:1 "Add Me To Your Mailing List"]
+
+Then add [add-email-list] to the "Required Acceptance Field" option in the Campaign Monitor section.
+
+
+== Screenshots ==
+
+1. Campaign Monitor Addon Configuration
+2. Form Configuration with Opt In
+
+== Changelog ==
+
+= 0.99 =
+First Release
